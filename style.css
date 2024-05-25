@@ -176,3 +176,19 @@ footer {
     margin-top: 40px;
     padding: 5px;
 }
+
+div.video {
+    background-color: var(--cor3);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 4.8%;
+    left: 4.8%;
+    width: 90%;
+    height: 90%;
+}
